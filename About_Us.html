@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CESTA</title>
+
+    <link rel="stylesheet" href="style_about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="media">
+
+        <header class="navbar">
+            <img class="logo" src="Resourses/logo.jpg" alt="logo" height="60px">
+            <ul class="nav_links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a class="cta" href="Contact.html"><button>Contact</button></a></li>
+            </ul>
+            <img src="Resourses/menu-btn.png" alt="" class="menu-btn">
+        </header>
+    </div>
+
+
+    <!-- ABOUT_US -->
+    <section id="About">
+    <div class="about">
+        <div class="container">
+            <div class="title">
+                <h1>About Us</h1>
+            </div>
+            <div class="content">
+                <div class="article">
+                    <p>CESTA, Computer Technical Society functions under the Computer
+                        Science and Engineering Department. This society runs by the
+                        students under the guidance of faculty and technical society heads.</p>
+
+                    <h3>Objectives:</h3>
+                    <ul>
+                        <li>To provide a platform where students can case their technical, leadership and communication skills.</li>
+                        <li>To promote their technical skills related to latest technology.</li>
+                        <li>To provide a competitive environment among the students.</li>
+                        <li>To facilitate the environment for innovative ideas.</li>
+                        <li>To build the Practical Approach among the students.</li>
+                    </ul>
+
+                    <h3>Membership:</h3>
+                    <ul>
+                        <li>Membership of CESTA is open to all students of DTC.</li>
+                        <li>All the members are involved in developing society purposes.</li>
+                        <li>The officers shall be President, Vice-President, General</li>
+                        <li>Secretary, Vice-General Secretary, Secretary and Treasurer.</li>
+                        <li>Officers are elected through the elections.</li>
+                        <li>Nominations will be filled before the elections.</li>
+                        <li>A majority of all the votes shall be necessary for a candidate to be elected.</li>
+                        <li>To be the part of CESTA, there are nominal charges of Rs 100.</li>
+                    </ul>
+
+                    <!-- <div class="button">
+                        <a href="">Read More</a>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <div class="image-section">
+                <img src="img1 (1).jpg" alt="" width="50%" height="50%">
+            </div> -->
+        </div>
+    </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>CESTA</h3>
+            <p class="quotes">
+                Give a man a program, frustrate him for a day. <br>
+                Teach a man to program, frustrate him for a lifetime. <br>
+                <strong>― Muhammad Waseem</strong>
+            </p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/cestadtc" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/cesta_dtc/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://discord.com/channels/938089253466959944/938111492698562651" target="_blank"><i class="bi-discord"></i></a></li>
+                <li><a href="https://github.com/cestasociety" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/cesta-computer-science-club-of-delhi-technical-campus/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <p class="footer-bottom">copyright &copy;2022 | Team: loopWhole | Designed by <span>Adityan</span> & <span>Akshit</span></p>
+        </div>
+    </footer>
+
+
+    <!-- scripts -->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav_links')
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>

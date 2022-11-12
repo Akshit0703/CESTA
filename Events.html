@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CESTA</title>
+
+    <link rel="stylesheet" href="style_event.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="navbar">
+        <img class="logo" src="Resourses/logo2.jpg" alt="logo" height="57px">
+        <ul class="nav_links">
+            <div class="links_hover">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="About_Us.html">About Us</a></li>
+            </div>
+            <li><a class="cta" href="Contact.html"><button>Contact</button></a></li>
+        </ul>
+        <img src="Resourses/menu-btn.png" alt="" class="menu-btn">
+    </div>
+
+    <header>
+        <div class="header-content">
+            <h2>Technology is best when it brings people together</h2>
+            <div class="line"></div>
+            <h1>CESTA</h1>
+        </div>
+    </header>
+
+
+    <!-- UPCOMING_EVENTS -->
+    <section id="Events">
+        <div class="container">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/img1.png" alt="">
+                    <h4>Upcoming Tech Event 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum eligendi autem obcaecati distinctio illo, ut dolor blanditiis tenetur nobis quam iusto! Quo voluptatibus eum enim earum placeat rem quibusdam.</p>
+                    <a href="#" class="cta"><button>Learn More</button></a>
+                </div>
+                <div class="col">
+                    <img src="img/img2.png" alt="">
+                    <h4>Upcoming Tech Event 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum eligendi autem obcaecati distinctio illo, ut dolor blanditiis tenetur nobis quam iusto! Quo voluptatibus eum enim earum placeat rem quibusdam.</p>
+                    <a href="#" class="cta"><button>Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OLD_EVENTS -->
+    <!-- Here we can also add a section for old events, as for now i don't have that much material and old event pictures.
+    So I skip that part for now. -->
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>CESTA</h3>
+            <p class="quotes">
+                Give a man a program, frustrate him for a day. <br>
+                Teach a man to program, frustrate him for a lifetime. <br>
+                <strong>― Muhammad Waseem</strong>
+            </p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/cestadtc" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/cesta_dtc/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://discord.com/channels/938089253466959944/938111492698562651" target="_blank"><i class="bi-discord"></i></a></li>
+                <li><a href="https://github.com/cestasociety" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/cesta-computer-science-club-of-delhi-technical-campus/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <p class="footer-bottom">copyright &copy;2022 | Team: loopWhole | Designed by <span>Adityan</span> & <span>Akshit</span></p>
+        </div>
+    </footer>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav_links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
